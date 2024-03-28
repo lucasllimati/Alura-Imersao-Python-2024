@@ -132,4 +132,111 @@ df_analise_saldo
 
 # Criando o primeiro gráfico com o resultado e as suas variações
 fig = px.bar(df_analise_saldo, x='Resultado', y='Variacao_rs', text='Variacao_rs', title='Variação Reais por Resultado')
+
+# Atualizar layout para centralizar o título
+fig.update_layout(title_x=0.5)
+
+fig.show()
+
+"""### Desafios
+
+* Pesquise com a documentação da biblioteca Plotly ou GPT como mudar a formatação dos números do gráfico de barras;
+* Fazer o gráfico de pizza no df_análise_segmentos com a mesma biblioteca Potly;
+* Fazer o GroupBy da categoria de idades e gerar o gráfico de barras.
+
+##### Formatação dos números do gráfico de barras
+"""
+
+fig = px.bar(df_analise_saldo, x='Resultado', y='Variacao_rs', labels={'Variacao_rs': 'Total',  'Resultado': 'Tipo'}, title='Variação Reais por Resultado')
+
+# Formatar o eixo y como moeda (por exemplo, R$)
+fig.update_layout(yaxis_tickprefix='R$', yaxis_tickformat=',.2f')
+
+# Atualizar layout para centralizar o título
+fig.update_layout(title_x=0.5)
+
+fig.show()
+
+# Com ajuda do ChatGPT para formatar dessa forma.
+
+# Função para formatar os rótulos do eixo y em bilhões
+def format_y_axis(value):
+    if abs(value) >= 1e9:
+        return f'R$ {"-" if value < 0 else ""}{abs(value) / 1e9:.0f} B'
+    elif abs(value) >= 1e6:
+        return f'R$ {"-" if value < 0 else ""}{abs(value) / 1e6:.0f} M'
+    elif abs(value) >= 1e3:
+        return f'R$ {"-" if value < 0 else ""}{abs(value) / 1e3:.0f} K'
+    else:
+        return f'R$ {"-" if value < 0 else ""}{abs(value):.2f}'
+
+fig = px.bar(df_analise_saldo, x='Resultado', y='Variacao_rs',
+             labels={'Variacao_rs': 'Total',  'Resultado': 'Tipo'},
+             title='Variação Reais por Resultado')
+
+# Aplicar a formatação personalizada ao eixo y
+fig.update_layout(yaxis_tickformat='.0f', yaxis_tickvals=df_analise_saldo['Variacao_rs'], yaxis_ticktext=list(map(format_y_axis, df_analise_saldo['Variacao_rs'])))
+
+# Atualizar layout para centralizar o título
+fig.update_layout(title_x=0.5)
+
+fig.show()
+
+"""#### Fazer o gráfico de pizza no df_análise_segmentos"""
+
+df_analise_segmento.head()
+
+# Criar o gráfico de pizza
+fig = px.pie(df_analise_segmento, values='Variacao_rs', names='Segmento',
+             title='Variação em Reais por Segmento')
+
+# Atualizar a formatação do texto dentro da pizza
+fig.update_traces(textposition='inside', textinfo='percent+label')
+
+# Atualizar layout para centralizar o título
+fig.update_layout(title_x=0.5)
+
+fig.show()
+
+"""####  GroupBy da categoria de idades e gerar o gráfico de barras."""
+
+df_principal.head()
+
+# Agrupameto pelo resultado
+df_principal_cat_idade = df_principal.groupby('Cat_idade')['Variacao_rs'].sum().reset_index()
+df_principal_cat_idade
+
+fig = px.bar(df_principal_cat_idade, x='Cat_idade', y='Variacao_rs', labels={'Variacao_rs': 'Total',  'Cat_idade': 'Range de Idade'}, title='Variação Reais por Resultado')
+
+# Formatar o eixo y como moeda (por exemplo, R$)
+fig.update_layout(yaxis_tickprefix='R$', yaxis_tickformat=',.2f')
+
+# Atualizar layout para centralizar o título
+fig.update_layout(title_x=0.5)
+
+fig.show()
+
+# Com ajuda do ChatGPT para formatar dessa forma.
+
+# Função para formatar os rótulos do eixo y em bilhões
+def format_y_axis(value):
+    if abs(value) >= 1e9:
+        return f'R$ {"-" if value < 0 else ""}{abs(value) / 1e9:.0f} B'
+    elif abs(value) >= 1e6:
+        return f'R$ {"-" if value < 0 else ""}{abs(value) / 1e6:.0f} M'
+    elif abs(value) >= 1e3:
+        return f'R$ {"-" if value < 0 else ""}{abs(value) / 1e3:.0f} K'
+    else:
+        return f'R$ {"-" if value < 0 else ""}{abs(value):.2f}'
+
+fig = px.bar(df_principal_cat_idade, x='Cat_idade', y='Variacao_rs',
+             labels={'Variacao_rs': 'Total',  'Cat_idade': 'Range de Idade'},
+             title='Variação Reais por Range de Idade')
+
+# Aplicar a formatação personalizada ao eixo y
+fig.update_layout(yaxis_tickformat='.0f', yaxis_tickvals = df_principal_cat_idade['Variacao_rs'], yaxis_ticktext=list(map(format_y_axis, df_principal_cat_idade['Variacao_rs'])))
+
+# Atualizar layout para centralizar o título
+fig.update_layout(title_x=0.5)
+
 fig.show()
