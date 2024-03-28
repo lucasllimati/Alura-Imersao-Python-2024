@@ -3,9 +3,10 @@
 
 
 ### Aula 01: Análise Exploratória com Google Sheets
-- Análise de ações no Excel/Google Sheets.
-- Algumas análises e explorações (Váriação percentual e monetária, coluna condicional, informações de segmento e idade das empresas).
-- Utilizando o Chat GPT para auxiliar com algumas informações que complementam nossas análises.
+- Analisar as bases de variações na B3;
+- Fazer análises exploratórias pelo Google Sheets com fórmulas
+- Usar o Chat GPT;
+- Gerar tabelas e cálculos de estatísticas como Máximo, Mínimo e Média.
 
 ### Aula 02: Gráficos e Análises com Google Colab e Python Pandas
 - Gerar de tabelas e cálculos de estatísticas;
@@ -14,3 +15,7 @@
 - Iniciar a manipulação de dados com Python Pandas.
 
 ### Aula 03: Manipulação de Dados e Criação de Gráficos com bibliotecas Python
+- Manipular dados com Pandas;
+- Transformar a planilha de ações com funções do Pandas;
+- Construir gráficos com a biblioteca Plotly Express;
+- Usar o Chat GPT durante o código.
