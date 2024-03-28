@@ -8,5 +8,9 @@
 - Utilizando o Chat GPT para auxiliar com algumas informações que complementam nossas análises.
 
 ### Aula 02: Gráficos e Análises com Google Colab e Python Pandas
+- Gerar de tabelas e cálculos de estatísticas;
+- Criar gráficos no Google Sheets;
+- Conhecer o Google Colab;
+- Iniciar a manipulação de dados com Python Pandas.
 
 ### Aula 03: Manipulação de Dados e Criação de Gráficos com bibliotecas Python
