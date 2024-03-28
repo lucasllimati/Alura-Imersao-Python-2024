@@ -9,14 +9,16 @@ Original file is located at
 
 import pandas as pd
 
-df_principal = pd.read_excel("/content/acoes_pura.xlsx", sheet_name="Principal")
+caminho = 'C:/Users/lucas.lourenco/OneDrive - Iteris Consultoria e Software/Documentos/Estudos/Alura---Imersao-Python-2024/Aula2/acoes_pura.xlsx'
+
+df_principal = pd.read_excel(caminho, sheet_name="Principal")
 df_principal
 
-df_total_acoes = pd.read_excel("/content/acoes_pura.xlsx", sheet_name="Total_de_acoes")
+df_total_acoes = pd.read_excel(caminho, sheet_name="Total_de_acoes")
 df_total_acoes
 
-df_ticker = pd.read_excel("/content/acoes_pura.xlsx", sheet_name="Ticker")
+df_ticker = pd.read_excel(caminho, sheet_name="Ticker")
 df_ticker
 
-df_chatgpt = pd.read_excel("/content/acoes_pura.xlsx", sheet_name="Chatgpt")
+df_chatgpt = pd.read_excel(caminho, sheet_name="Chatgpt")
 df_chatgpt
