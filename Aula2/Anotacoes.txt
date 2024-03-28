@@ -1,0 +1,22 @@
+Introdução
+
+Nesta aula, vamos criar gráficos e tabelas no Google Sheets e, começar a manipulação de dados com Python Pandas pelo Google Colab!
+
+Nesta aula, você vai:
+Gerar de tabelas e cálculos de estatísticas;
+Criar gráficos no Google Sheets;
+Conhecer o Google Colab;
+Iniciar a manipulação de dados com Python Pandas.
+Fique até o final da aula e descubra insights e orientações exclusivas para impulsionar o seu aprendizado de forma eficaz com o uso do ChatGPT.
+
+Link do projeto:
+Faça uma cópia da planilha utilizada para a análise aqui (https://docs.google.com/spreadsheets/d/1sGaR2Nkfi025rTzztCyDX7q-ZztHsK7U_SqXQr76dQ4/edit?usp=drive_link)
+Acesse o Google Colab (https://colab.research.google.com/notebooks/intro.ipynb)
+Código da aula 2 (https://colab.research.google.com/drive/1Eic1tLm4vQCHpeaf_M5qNtjTTXLRPDTS?usp=sharing)
+
+Desafios desta aula
+
+Deseja ir além? Experimente este desafio:
+Crie um gráfico de barras olhando a faixa etária e o valor da variação;
+Faça outro gráfico de barras com a faixa etária e a quantidade de empresas que estão em cada faixa etária;
+Explore os tipos de gráficos com os dados já feitos.
