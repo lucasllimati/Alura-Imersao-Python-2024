@@ -20,3 +20,7 @@ Repositório: [Aluraimersao-python-dados-03-2024](https://github.com/alura-curso
 - Transformar a planilha de ações com funções do Pandas;
 - Construir gráficos com a biblioteca Plotly Express;
 - Usar o Chat GPT durante o código.
+
+### Aula 04: Análises Avançadas de Ações e Gráficos de Velas
+- Criar gráficos de velas;
+- Aprender a fazer gráficos interativos com Plotly.
