@@ -1,0 +1,22 @@
+Aula 04: Análises Avançadas de Ações e Gráficos de Velas
+
+Introdução
+
+Nesta aula, vamos construir gráficos de velas com Matplotlib e realizar ações mais avançadas, como gráficos interativos com Plotly.
+
+Nesta aula, você vai:
+Criar gráficos de velas;
+Aprender a fazer gráficos interativos com Plotly.
+Fique até o final da aula e descubra insights e orientações exclusivas para impulsionar o seu aprendizado de forma eficaz com o uso do ChatGPT.
+
+Link do projeto:
+Acesse o Google Colab (https://colab.research.google.com/notebooks/intro.ipynb)
+Código da aula 4 (https://colab.research.google.com/drive/1TrL6SbbMoZkh-8ATijWx9N8cQeTl-U4J?usp=sharing)
+
+Desafios desta aula
+
+Deseja ir além? Experimente este desafio:
+Pesquisar o que é uma tupla em Python;
+Buscar a ação da Apple e recriar o gráfico de Candlestick usando a biblioteca MPLFinance.
+Resolução do desafio
+Buscar a ação da Apple e recriar o gráfico de Candlestick usando a biblioteca MPLFinance: Código aqui (https://github.com/alura-cursos/imersao-python-dados-03-2024/blob/main/%5BResposta%20dos%20Desafios%5D%20Aula%2004%20-%20Gr%C3%A1fico%20de%20Candlestick%20com%20dados%20da%20Apple).
