@@ -1,0 +1,26 @@
+Introdução
+
+Nesta aula, vamos continuar a manipulação de dados com Pandas no Colab por meio da transformação da planilha de ações. Além disso, vamos começar a construir gráficos com a biblioteca Plotly.
+
+Nesta aula, você vai:
+Manipular dados com Pandas;
+Transformar a planilha de ações com funções do Pandas;
+Construir gráficos com a biblioteca Plotly Express;
+Usar o Chat GPT durante o código.
+Fique até o final da aula e descubra insights e orientações exclusivas para impulsionar o seu aprendizado de forma eficaz com o uso do ChatGPT.
+
+Link do projeto:
+Acesse o Google Colab (https://colab.research.google.com/notebooks/intro.ipynb)
+Código da aula 3 (https://colab.research.google.com/drive/1yEjLM944BiWEwBFF0-hMuLUMW-JURPya?usp=sharing)
+
+
+Desafios desta aula
+
+Deseja ir além? Experimente este desafio:
+Pesquise com a documentação da biblioteca Plotly ou GPT como mudar a formatação dos números do gráfico de barras;
+Fazer o gráfico de pizza no df_análise_segmentos com a mesma biblioteca Potly;
+Fazer o GroupBy da categoria de idades e gerar o gráfico de barras.
+Resolução do desafio:
+Pesquise com a documentação da biblioteca Plotly aqui (https://plotly.com/python/bar-charts/)
+Fazer o gráfico de pizza no df_analise_segmento com a mesma biblioteca Plotly: Código aqui (https://github.com/alura-cursos/imersao-python-dados-03-2024/blob/main/%5BResposta%20dos%20Desafios%5D%20Aula%2003%20-%20Gr%C3%A1fico%20de%20Pizza).
+Fazer o GroupBy da categoria de idades e gerar o gráfico de barras: Código aqui (https://github.com/alura-cursos/imersao-python-dados-03-2024/blob/main/%5BResposta%20dos%20Desafios%5D%20Aula%2003%20-%20GroupBy%20da%20categoria%20de%20idades).
