@@ -1,6 +1,7 @@
 # Alura - Imersao Python 2024
  Imersão Python: Do Excel à Análise de Dados
 
+Repositório: [Aluraimersao-python-dados-03-2024](https://github.com/alura-cursos/imersao-python-dados-03-2024)
 
 ### Aula 01: Análise Exploratória com Google Sheets
 - Analisar as bases de variações na B3;
