@@ -24,3 +24,9 @@ Repositório: [Aluraimersao-python-dados-03-2024](https://github.com/alura-curso
 ### Aula 04: Análises Avançadas de Ações e Gráficos de Velas
 - Criar gráficos de velas;
 - Aprender a fazer gráficos interativos com Plotly.
+
+### Aula 05: Previsão de Séries Temporais de Ações e Carreiras no Mercado de Dados
+- Ter uma introdução ao Machine Learning;
+- Revisar ferramentas aprendidas durante a Imersão;
+- Conhecer mais sobre as carreiras no mercado de dados.
+- Fique até o final da aula e descubra insights e orientações exclusivas para impulsionar o seu aprendizado de forma eficaz com o uso do ChatGPT.
