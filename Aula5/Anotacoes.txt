@@ -1,0 +1,19 @@
+Aula 05: Previsão de Séries Temporais de Ações e Carreiras no Mercado de Dados
+
+PREVISÃO DE SÉRIES TEMPORAIS DE AÇÕES E CARREIRAS NO MERCADO DE DADOS
+PARTICIPE E VÁ MAIS FUNDO
+Boas-vindas! Chegou a hora de mergulhar na última aula da Imersão Python e dar um novo passo na sua carreira!
+
+Introdução
+
+Nesta última aula, vamos introduzir o Machine Learning com Prophet para além de todas as ferramentas já aprendidas durante a Imersão. Também vamos conhecer sobre as carreiras do mercado de dados.
+
+Nesta aula, você vai:
+Ter uma introdução ao Machine Learning;
+Revisar ferramentas aprendidas durante a Imersão;
+Conhecer mais sobre as carreiras no mercado de dados.
+Fique até o final da aula e descubra insights e orientações exclusivas para impulsionar o seu aprendizado de forma eficaz com o uso do ChatGPT.
+
+Link do projeto:
+Acesse o Google Colab (https://colab.research.google.com/notebooks/intro.ipynb)
+Código da aula 5 (https://colab.research.google.com/drive/1rI0FRhchqAcna_G0To4W05bG3uxBUbFS?usp=sharing)
